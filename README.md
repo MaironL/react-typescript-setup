@@ -3,8 +3,9 @@
 This is just a small setup I create to myself in the way I like to structure the folders of a proyect, and with the average tool I use
 
 ## Built with
+
 - CRA
-- styled-components
+- react-bootstrap
 - typescript
 
 ## Author
