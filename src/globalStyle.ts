@@ -146,12 +146,12 @@ p {
 
 #root {
   display: grid;
-  grid:  auto / auto;
-  /* grid-template-areas: Example
-  "navbar" 
-  "main"
-  "footer"
-  ; */
+  grid: 
+  [row1-start] "header" 8vh  [row1-end]   
+  [row2-start] "main" auto [row2-end]
+  [row3-start] "footer" auto [row3-end]
+  / auto ;
+  gap: 10px;
   min-height: 100%;
   background-color: var(--clr-bg-2);
 }
