@@ -5,7 +5,7 @@ const AppRouters = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' element={<C.Home />} />
+        <Route path='/' element={<C.Home />} />
         <Route path='*' element={<C.Error />} />
       </Routes>
     </Router>
